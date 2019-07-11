@@ -61,30 +61,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Heading3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   margin: 0;
-   padding: 15px 0px 15px 0px;
-   -webkit-animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   -moz-animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   -webkit-animation-play-state: paused;
-   -moz-animation-play-state: paused;
-   animation-play-state: paused;
-   text-align: center;
-}
-#Heading3
-{
-   color: #F5FFFA;
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 19px;
-   margin: 0;
-   text-align: center;
-}
 #wb_TextArt2
 {
    transform: rotate(0deg);
@@ -95,43 +71,35 @@ body
    border-width: 0;
    vertical-align: top;
 }
-#wb_FontAwesomeIcon3
+#Image3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text2 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 22.5px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
    margin: 0;
    padding: 0;
-   -webkit-animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   -moz-animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   animation: transform-scale-in 1000ms linear 600ms 1 normal both;
-   -webkit-animation-play-state: paused;
-   -moz-animation-play-state: paused;
-   animation-play-state: paused;
-   vertical-align: top;
-}
-#wb_FontAwesomeIcon3:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#FontAwesomeIcon3
-{
-   height: 48px;
-   width: 48px;
-}
-#FontAwesomeIcon3 i
-{
-   color: #818181;
-   display: inline-block;
-   font-size: 48px;
-   line-height: 48px;
-   vertical-align: middle;
-   width: 43px;
-}
-#wb_FontAwesomeIcon3:hover i
-{
-   color: #337AB7;
 }
